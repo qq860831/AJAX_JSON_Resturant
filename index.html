@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>台中餐廳列表</h1>
+    <h1 class="title">台中餐廳列表</h1>
     <!-- 顯示餐廳區塊 -->
     <div id="restaurant">
-        <div id="box">
-            <h1>餐廳名稱:</h1>
+        <div id="box" v-for="d in datas">
+            <h1>餐廳名稱:{{d["品牌名稱"]}}</h1>
             <hr>
-            <h3>電話:</h3>
-            <h3>地址:</h3>
+            <h3>電話:{{d["連絡電話"]}}</h3>
+            <h3>地址:{{d["聯絡地址"]}}</h3>
             <hr>
-            <h2>優惠:</h2>
+            <h2>優惠:{{d["好康內容"]}}</h2>
+            <!-- [裡面的名稱一定要跟Json檔案裡面的名稱一樣] -->
 
         </div>
     </div>
