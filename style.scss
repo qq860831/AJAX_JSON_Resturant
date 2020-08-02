@@ -4,3 +4,22 @@
     box-sizing: border-box;
     font-family: 微軟正黑體;
 }
+#restaurant{
+
+    #box{
+        box-shadow: 0 5px 5px solid rgba(0,0,0,0.5);
+        padding: 30px;
+        background-color: #eee;
+    }
+
+    h1{
+        padding: 5px;
+    }
+
+    h2{
+        padding: 3px 5px;
+    }
+    h3{
+        padding: 2px 5px;
+    }
+}

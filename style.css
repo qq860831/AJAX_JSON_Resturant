@@ -6,4 +6,23 @@
           box-sizing: border-box;
   font-family: 微軟正黑體;
 }
+
+#restaurant #box {
+  -webkit-box-shadow: 0 5px 5px solid rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 5px solid rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  background-color: #eee;
+}
+
+#restaurant h1 {
+  padding: 5px;
+}
+
+#restaurant h2 {
+  padding: 3px 5px;
+}
+
+#restaurant h3 {
+  padding: 2px 5px;
+}
 /*# sourceMappingURL=style.css.map */
